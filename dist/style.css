@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image:  linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f3f3f3;
+  font-family:'Poppins', sans-serif;
+  
+  line-height: 1.4;
+}
+
+#title{
+  padding: 15vh 0px 7.5vh 0px;
+  font-weight: 200; 
+  text-align: center;
+}
+
+#title + p{
+  padding: 0px 0px 6vh 0px;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.125rem;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+  text-align: center;
+}
+
+#survey-form{
+  background-color:rgba(27, 27, 50, 0.8);
+  margin: 0px 20% 0px 20%;
+  border-radius: 3vh;
+  
+  }
+
+.box-edit{
+  width: 90%;
+  border-radius: 2vh;
+  padding: 2vh;
+  border: 1px solid #ced4da;
+  margin: 0px .67vw 3vh 2vw;
+}
+
+.label-edit{
+  padding: 0px 0px 3vh 2vw;
+  margin: 9vh 0px 0px 0px;
+  display: inline-block;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.check-edit{
+  padding: 1vh 0px 5vh 0px;
+}
+
+.label-edit2{
+  padding: 0px 0px 3vh 2vw;
+  margin: 9vh 0px 0px 0px;
+  font-weight: 200
+}
+
+.choice-edits{
+  padding: 3vh 0px 3vh 2vw;
+  
+}
+
+#comments{
+  width: 49.7vw;
+  height: 19vh;
+  padding: 3vh 1.5vw 0px 0px;
+  border: 1px solid #ced4da;
+  margin: 0px .67vw 3vh 2vw; 
+  font-family:'Poppins', sans-serif;
+  font-weight: 200;
+   
+}
+
+#submit{
+  width: 51.6vw;
+  margin: 12vh .67vw 24vh 2vw; 
+  display: inline-block;
+  background-color: #37af65;
+  color: #f3f3f3;
+  cursor: pointer;
+  height: 15vh;
+  font-weight: 200;
+}
+
+#dropdown{
+  width: 54.5vw;
+  border-radius: 2vh;
+  padding: 2.5vh 2vh;
+  border: 1px solid #ced4da;
+  margin: 0px .67vw 3vh 2vw;
+  display: inline-block;
+}
+
+.drop-op{
+  font-weight: 200;
+  font-size: 1.125rem;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+  color: #495057;
+  font-family:'Poppins', sans-serif;
+}
+
+#dropdown2{
+  width: 54.5vw;
+  border-radius: 2vh;
+  padding: 2.5vh 2vh;
+  border: 1px solid #ced4da;
+  margin: 0px .67vw 3vh 2vw;
+  display: inline-block;
+}
+
+@media (max-width: 756px){
+  body{
+    font-size: 3vh
+  }
+  
+  .box-edit{
+  width: 80%;
+}
+  #survey-form{
+  margin: 0px 15% 0px 15%;
+  padding: 0px 3vw 0px 2vw;
+  
+}
